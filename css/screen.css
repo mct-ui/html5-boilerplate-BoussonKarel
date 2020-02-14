@@ -7,7 +7,7 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
     color: #111;
     padding: 24px 24px 0;
 }
@@ -20,13 +20,13 @@ html {
  */
 
 ::-moz-selection {
-    background: #44C8F5;
+    background: #44c8f5;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #44C8F5;
+    background: #44c8f5;
     color: white;
     text-shadow: none;
 }
@@ -49,7 +49,7 @@ img {
 */
 
 h1 {
-    font-family: "Times New Roman", serif;
+    font-family: 'Times New Roman', serif;
     font-size: 36px;
     font-weight: normal;
     line-height: 40px;
@@ -93,7 +93,7 @@ blockquote {
 }
 
 li ul,
-li ol{
+li ol {
     margin-bottom: 0;
 }
 
@@ -102,7 +102,7 @@ blockquote {
     font-size: 23px;
     line-height: 23px;
     margin: 0 0 24px;
-    font-family: "Times New Roman", serif;
+    font-family: 'Times New Roman', serif;
 }
 
 blockquote * {
@@ -125,15 +125,16 @@ hr {
 }
 
 a {
-
-}
-
-a:hover,
-a:focus {
-
+    color: royalblue;
+    transition: all 0.1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    
+    color: blueviolet;
+}
+
+a:hover,
+a:focus {
+    color: crimson;
 }
