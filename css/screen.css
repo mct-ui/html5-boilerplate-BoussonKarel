@@ -11,6 +11,9 @@ html {
     color: #111;
     padding: 24px 24px 0;
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
 }
 
 /*
@@ -138,6 +141,25 @@ a:active {
 a:hover,
 a:focus {
     color: crimson;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.odd {
+    background-color: whitesmoke;
 }
 
 /*
